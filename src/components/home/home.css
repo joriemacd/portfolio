@@ -1,3 +1,7 @@
 /* .home-container {
     background-color: aliceblue;
 } */
+
+.greeting-container {
+    max-width: 500px;
+}
