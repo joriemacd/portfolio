@@ -1,0 +1,11 @@
+label {
+  display: inline-block;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+input[type="radio"] {
+  display: none;
+}
+
+  
