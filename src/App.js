@@ -7,6 +7,7 @@ import Navbar from './components/navbar/navbar';
 import Home from './components/home/home';
 import About from './components/about/about';
 import Projects from './components/projects/projects'
+import Contact from './components/contact/contact';
 
 function App() {
   return (
@@ -18,11 +19,10 @@ function App() {
             <Route path="/" exact element={<Home />} />
             <Route path="/projects" element={<Projects />} />
             <Route path="/about" element={<About />} />
-            {/* <Route path="/contact" element={<Contact />} /> */}
+            <Route path="/contact" element={<Contact />} />
       </Routes>
 
     <Navbar/>
-      <p>Currently under construction! </p>
       </header>
     </div>
     </Router>

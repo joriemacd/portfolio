@@ -1,12 +1,12 @@
 import React from 'react';
 
-const Projects = () => {
+const Contact = () => {
   return (
     <div>
-      <h1>Projects</h1>
+      <h1>Contact</h1>
       <p>Currently under construction! </p>
     </div>
   );
 };
 
-export default Projects;
+export default Contact;
