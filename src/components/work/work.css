@@ -1,3 +1,6 @@
-.subpage-grid{
-    display: flex
-}
+.subpage-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Center the content horizontally */
+    margin-top: 50px; /* Add some space below the fixed header */
+  }
