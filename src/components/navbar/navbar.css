@@ -30,6 +30,7 @@ nav {
   
   .active {
     font-weight: bold;
-    color: blue; 
+    border-bottom: 2px solid white; /* Add an underline */
+
   }
   
