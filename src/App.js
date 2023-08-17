@@ -8,6 +8,7 @@ import Home from './components/home/home';
 import About from './components/about/about';
 import Work from './components/work/work';
 import Contact from './components/contact/contact';
+import SubPageDetails from './components/subpagedetails/subpagedetails';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
             <Route path="/work" element={<Work />} />
             <Route path="/about" element={<About />} />
             <Route path="/contact" element={<Contact />} />
+            <Route path="/work/:projectName" element={<SubPageDetails/>} />
       </Routes>
 
     <Navbar/>

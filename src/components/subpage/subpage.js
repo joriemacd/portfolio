@@ -1,15 +1,24 @@
 import React from "react";
-import { Link } from "react-router-dom";
-// import turtleImage from "../images/turtle.jpeg"
+import { Link, useNavigate } from "react-router-dom";
 import './subpage.css'
 
-const SubPage = ({ id, title, coverImage, category }) => (
-  <div className="sub-page">
-    <div className="cover-image">
-    <img src={coverImage} alt={`Cover for ${title}`} />
+const SubPage = ({ id, title, coverImage, category }) => {
+  const navigate = useNavigate();
+
+  const handleLinkClick = () => {
+    navigate(`/work/${title}`);
+  };
+
+  return (
+    <div className="sub-page">
+      <div className="cover-image">
+        <img src={coverImage} alt={`Cover for ${title}`} />
+      </div>
+      <Link className="title" to={`/work/${title}`} onClick={handleLinkClick}>
+        {title}
+      </Link>
     </div>
-    <Link className="title" to={`/work/${title}`}>{title}</Link>
-  </div>
-);
+  );
+};
 
 export default SubPage;

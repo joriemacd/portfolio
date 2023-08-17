@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import './filterbar.css'
 
 const FilterBar = ({ selectedCategory, onCategoryChange }) => {
-  const categories = ["All", "Category A", "Category B"]; // Add more categories as needed
+  const categories = ["All", "Code", "Design"]; // Add more categories as needed
 
   const [activeCategory, setActiveCategory] = useState(selectedCategory);
 
