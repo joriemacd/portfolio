@@ -44,10 +44,11 @@ const SubPageDetails = () => {
 
   return (
     <div className="sub-page-details">
+    <button onClick={goBack}>Back to Projects</button>
       <h2>{title}</h2>
       <p>{content}</p>
       <p>Category: {category}</p>
-      <button onClick={goBack}>Go Back</button>
+      
     </div>
   );
 };
