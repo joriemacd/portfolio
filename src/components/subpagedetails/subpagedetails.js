@@ -40,14 +40,13 @@ const SubPageDetails = () => {
     return <div>Sub-page not found</div>;
   }
 
-  const { title, content, category } = subPage;
+  const { title, content} = subPage;
 
   return (
     <div className="sub-page-details">
     <button onClick={goBack}>Back to Projects</button>
       <h2>{title}</h2>
       <p>{content}</p>
-      <p>Category: {category}</p>
       
     </div>
   );

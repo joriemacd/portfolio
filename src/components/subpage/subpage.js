@@ -11,11 +11,11 @@ const SubPage = ({ id, title, coverImage, category }) => {
 
   return (
     <div className="sub-page">
+      <Link className="title" to={`/work/${title}`} onClick={handleLinkClick}>
       <div className="cover-image">
         <img src={coverImage} alt={`Cover for ${title}`} />
       </div>
-      <Link className="title" to={`/work/${title}`} onClick={handleLinkClick}>
-        {title}
+        <p className="project-title">{title}</p>
       </Link>
     </div>
   );

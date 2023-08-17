@@ -2,5 +2,12 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center; /* Center the content horizontally */
-    margin-top: 50px; /* Add some space below the fixed header */
+    margin-top: 50px; 
+    max-width: 2000px;
   }
+
+  /* .subpage-grid .grid-item {
+    flex-basis: calc(33.33% - 20px); /* Three items in a row with some spacing */
+    /* margin: 10px; Adjust spacing between items */
+    /* box-sizing: border-box; */
+  /* } */ 
