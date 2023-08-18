@@ -4,7 +4,7 @@ const About = () => {
   return (
     <div>
       <h1>About</h1>
-      <p>Currently under construction! </p>
+      <p>This page is currently under construction! </p>
     </div>
   );
 };

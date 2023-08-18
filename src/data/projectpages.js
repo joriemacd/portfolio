@@ -5,55 +5,56 @@ import turntable from "../components/images/turntablee.png";
 import oopsgame from "../components/images/oopsgame.png"
 import building from "../components/images/coverbuilding.png"
 import majordec from "../components/images/majordec.png"
+// import catImage from "../components/images/catt.jpeg"
 
 const subPagesData = [
   {
     id: 1,
     title: "Rüm App",
     coverImage: rumApp,
-    content: "Currently under construction.",
+    content: "This page is currently under construction.",
     categories: ["Design", "Code"],
   },
   {
     id: 4,
     title: "Smart Microscope",
     coverImage: smartScope,
-    content: "Currently under construction.",
+    content: "This page is currently under construction.",
     categories: ["Design"],
   },
   {
     id: 2,
     title: "Nuggets Game",
     coverImage: nuggetsGame,
-    content: "Currently under construction.",
+    content: "This page is currently under construction.",
     categories: ["Code"],
   },
   {
     id: 3,
     title: "Oops Game",
     coverImage: oopsgame,
-    content: "Currently under construction.",
+    content: "This page is currently under construction.",
     categories: ["Code"],
   },
   {
     id: 8,
     title: "Turntable",
     coverImage: turntable,
-    content: "Currently under construction.",
+    content: "This page is currently under construction.",
     categories: ["Code", "Design"],
   },
   {
     id: 10,
     title: "Major Declaration",
     coverImage: majordec,
-    content: "Currently under construction.",
+    content: "This page is currently under construction.",
     categories: ["Design"],
   },
   {
     id: 9,
     title: "Cover Building Rennovation",
     coverImage: building,
-    content: "Currently under construction.",
+    content: "This page is currently under construction.",
     categories: ["Design"],
   },
 //   {

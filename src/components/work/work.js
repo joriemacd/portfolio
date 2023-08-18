@@ -13,7 +13,7 @@ const Work = () => {
 
   return (
     <div>
-      <h1>Work</h1>
+      <h1 className="work-text">Work</h1>
       {/* <h2>This page is currently under construction.</h2> */}
       <FilterBar
         selectedCategory={categoryFilter}

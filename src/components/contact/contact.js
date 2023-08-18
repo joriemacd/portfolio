@@ -4,7 +4,7 @@ const Contact = () => {
   return (
     <div>
       <h1>Contact</h1>
-      <p>Currently under construction! </p>
+      <p>This page is currently under construction! </p>
     </div>
   );
 };
