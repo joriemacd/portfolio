@@ -25,10 +25,10 @@ const SubPageDetails = () => {
     <div className="sub-page-details">
       <button className="back-button" onClick={goBack}><BiArrowBack className="back-arrow"/></button>
       <div className="page-content">
+      <h2>{title}</h2>
         <div className="display-image">
             <img src={coverImage} alt={`Cover for ${title}`} />
         </div>
-        <h2>{title}</h2>
           <p>{content}</p>
       </div>
       
