@@ -19,6 +19,10 @@
     object-fit: cover;
   }
   
+  .sub-page:hover .cover-image img {
+    filter: blur(5px);
+  }
+  
   .title {
     margin-top: 10px;
   }
