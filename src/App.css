@@ -24,6 +24,11 @@
   color: white;
 }
 
+.content-container {
+  margin-top: 30px; /* Adjust this value based on your navbar height */
+  padding: 20px; /* Add padding to prevent content from sticking to the edges */
+  flex: 1; /* Allow the content to take up remaining space */
+}
 .App-link {
   color: #61dafb;
 }

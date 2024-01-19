@@ -16,15 +16,15 @@ function App() {
     <div className="App">
       <header className="App-header">
       <Navbar />
-      <Routes>
-            <Route path="/" exact element={<Home />} />
-            <Route path="/work" element={<Work />} />
-            <Route path="/about" element={<About />} />
-            <Route path="/contact" element={<Contact />} />
-            <Route path="/work/:projectName" element={<SubPageDetails/>} />
-      </Routes>
-
-    <Navbar/>
+      <div className='content-container'>
+        <Routes>
+              <Route path="/" exact element={<Home />} />
+              <Route path="/work" element={<Work />} />
+              <Route path="/about" element={<About />} />
+              <Route path="/contact" element={<Contact />} />
+              <Route path="/work/:projectName" element={<SubPageDetails/>} />
+        </Routes>
+      </div>
       </header>
     </div>
     </Router>

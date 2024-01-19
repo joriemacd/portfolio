@@ -1,5 +1,5 @@
 import React from 'react';
-import jorieImage from '../images/joriewithrectangle.png'
+import jorieImage from '../images/jorie-black-background.jpg'
 import '../home/home.css'
 
 const Home = () => {
