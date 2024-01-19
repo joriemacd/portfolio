@@ -5,6 +5,7 @@ import turntable from "../components/images/turntablee.png";
 import oopsgame from "../components/images/oopsgame.png"
 import building from "../components/images/coverbuilding.png"
 import majordec from "../components/images/majordec.png"
+import NOasis from "../components/images/NOasis.png"
 // import catImage from "../components/images/catt.jpeg"
 
 const subPagesData = [
@@ -19,6 +20,13 @@ const subPagesData = [
     id: 4,
     title: "Smart Microscope",
     coverImage: smartScope,
+    content: "This page is currently under construction.",
+    categories: ["Design"],
+  },
+  {
+    id: 11,
+    title: "NOasis: Boundary Setting Gamified",
+    coverImage: NOasis,
     content: "This page is currently under construction.",
     categories: ["Design"],
   },
@@ -57,6 +65,9 @@ const subPagesData = [
     content: "This page is currently under construction.",
     categories: ["Design"],
   },
+
+ 
+
 //   {
 //     id: 5,
 //     title: "Tiny Search Engine",
