@@ -1,0 +1,17 @@
+ 
+  .content-container {
+    display: flex; 
+    margin-left: 200px; /* Add 100px margin on both sides */
+    margin-right:200px;
+  }
+  
+  .jorieImage {
+    width: 300px; /* Adjust the width as needed */
+    height: auto; /* Maintain aspect ratio */
+    margin-right: 20px; /* Add some spacing between image and text */
+  }
+
+  .about-text {
+    font-size: 20px;
+    text-align: left;
+  }
